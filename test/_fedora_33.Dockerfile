@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM fedora:33
 
 ENV GITDIR /etc/.pihole
 ENV SCRIPTDIR /opt/pihole
